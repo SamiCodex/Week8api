@@ -13,3 +13,4 @@ router.patch("/:id", auth, c.updateStudent);
 router.delete("/:id", auth, requireRole("admin"), c.deleteStudent);
 
 module.exports = router;
+
